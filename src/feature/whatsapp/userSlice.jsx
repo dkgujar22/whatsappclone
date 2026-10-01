@@ -9,7 +9,7 @@ const initialState={
     "lastMessage": "Bro, where are you?",
     "time": "10:30 AM",
     "unreadCount": 2,
-    "isOnline": true
+    "isOnline": "online"
   },
   {
     "id": 2,
@@ -18,16 +18,16 @@ const initialState={
     "lastMessage": "Let's meet tomorrow.",
     "time": "9:45 AM",
     "unreadCount": 1,
-    "isOnline": false
+    "isOnline": "offline"
   },
   {
     "id": 3,
     "name": "Hamza Malik",
     "profileImage": "https://i.pravatar.cc/150?img=3",
-    "lastMessage": "Did you complete the project?",
+    "lastMessage": "Did you complete?",
     "time": "Yesterday",
     "unreadCount": 0,
-    "isOnline": true
+    "isOnline": "online"
   },
   {
     "id": 4,
@@ -36,7 +36,7 @@ const initialState={
     "lastMessage": "Okay bro 👍",
     "time": "Yesterday",
     "unreadCount": 0,
-    "isOnline": false
+    "isOnline": "offline"
   },
   {
     "id": 5,
@@ -45,7 +45,7 @@ const initialState={
     "lastMessage": "Send me the files.",
     "time": "Monday",
     "unreadCount": 3,
-    "isOnline": true
+    "isOnline": "online"
   },
   {
     "id": 6,
@@ -54,7 +54,7 @@ const initialState={
     "lastMessage": "Thanks bro!",
     "time": "Monday",
     "unreadCount": 0,
-    "isOnline": false
+    "isOnline": "offline"
   },
   {
     "id": 7,
@@ -63,7 +63,7 @@ const initialState={
     "lastMessage": "What are you doing?",
     "time": "Sunday",
     "unreadCount": 5,
-    "isOnline": true
+    "isOnline": "online"
   },
   {
     "id": 8,
@@ -72,7 +72,7 @@ const initialState={
     "lastMessage": "See you soon!",
     "time": "Sunday",
     "unreadCount": 0,
-    "isOnline": false
+    "isOnline": "offline"
   },
   {
     "id": 9,
@@ -81,7 +81,7 @@ const initialState={
     "lastMessage": "Can you call me?",
     "time": "Saturday",
     "unreadCount": 1,
-    "isOnline": true
+    "isOnline": "offline"
   },
   {
     "id": 10,
@@ -90,12 +90,12 @@ const initialState={
     "lastMessage": "Good night bro 🌙",
     "time": "Saturday",
     "unreadCount": 0,
-    "isOnline": false
+    "isOnline": "online"
   }
 ],
     selectedfriend:null,
 
-    onlineFriends:null,
+    onlineFriends:"all",
     search:""
 
      
